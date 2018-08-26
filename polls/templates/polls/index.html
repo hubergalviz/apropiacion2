@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h1 align="center">Galeria</h1>
+{% for Imagen in lista_imagenes %}
+<img src="{(Imagen.url)}" width="400" height="300">
+{% endfor %}
+
+</body>
+</html>
